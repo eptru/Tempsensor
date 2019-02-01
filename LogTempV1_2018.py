@@ -7,7 +7,7 @@ import sys
 import os
 
 usbport = 'COM3'		#Check and change if replugging the Arduino
-sensorListFile='sensprList.dat'
+sensorListFile='sensorList.dat'
 filename=strftime("%Y%m", localtime())+'TemperatureLogFile.csv'
 currentmonth = localtime().tm_mon
 
